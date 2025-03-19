@@ -8,7 +8,7 @@ const PropertyListing = () => {
     useEffect(() => {
         const fetchProperties = async () => {
             try {
-                const response = await axios.get("http://localhost:3001/properties");
+                const response = await axios.get("https://estatesystem.onrender.com/properties");
                 setProperties(response.data);
             } catch (error) {
                 console.error("Error fetching properties:", error);
@@ -27,7 +27,7 @@ const PropertyListing = () => {
                         <div key={property._id} className="col-md-4 mb-4">
                             <div className="card shadow-sm">
                                 <img
-                                    src={`http://localhost:3001/image/${property.imageId}`}
+                                    src={`https://estatesystem.onrender.com/image/${property.imageId}`}
                                     alt="Property"
                                     className="card-img-top"
                                     style={{ height: "200px", objectFit: "cover" }}
