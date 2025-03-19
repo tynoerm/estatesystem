@@ -13,7 +13,7 @@ const Register = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3001/api/register", {
+      const response = await axios.post("https://estatesystem.onrender.com/api/register", {
         fullname,
         email,
         password,
