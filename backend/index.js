@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
 const corsOptions = {
-  origin: 'https://estatesystem.vercel.app/', // Your actual frontend URL
+  origin: 'https://estatesystem-e3iw.vercel.app/', // Your actual frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 };
