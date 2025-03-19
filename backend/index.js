@@ -23,7 +23,7 @@ const corsOptions = {
 
 
 // MongoDB Connection
-const mongoURI = process.env.MONGO_URI || "mongodb+srv://tinomutendaishemutemaringa:d0nZ2cKjlip60Eyq@cluster0.dctxq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const mongoURI = process.env.MONGO_URI || "mongodb+srv://tinomutendaishemutemaringa:zWyKpqocvlVI98wi@cluster0.dctxq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose.connect(mongoURI)
   .then(() => console.log("Connected to MongoDB"))
