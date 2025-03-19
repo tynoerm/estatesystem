@@ -55,7 +55,7 @@ const Blog = () => {
                             <div key={userpost._id} className="col-md-4 mb-4">
                                 <div className="card shadow-sm">
                                     <img
-                                        src={`http://localhost:3001/image/${userpost.imageId}`}
+                                        src={`https://estatesystem.onrender.com/image/${userpost.imageId}`}
                                         alt="Property"
                                         className="card-img-top"
                                         style={{ height: "200px", objectFit: "cover" }}
